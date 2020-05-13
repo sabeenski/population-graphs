@@ -109,11 +109,6 @@ async function fetchCountries() {
 }
 
 function addMenuItems(countryList) {
-  // To show the placeholder before mapping through the array
-  var opt = document.createElement('option');
-  opt.appendChild(document.createTextNode('Select a country'));
-  dropdown.appendChild(opt);
-
   countryList.map((country) => {
     // Skip aggregate areas such as "EU" and "EMU area"
     if (country.capitalCity === '') {
