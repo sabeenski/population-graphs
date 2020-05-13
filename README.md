@@ -1,4 +1,4 @@
-# Population-graphs | A Population graph by using World Bank API | Mimmit kooda
+## Population-graphs | A Population graph by using World Bank API | Mimmit kooda
 
 ## Tech stacks:
 - HTML5
